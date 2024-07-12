@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.figure {
+  width: 200px;
+  height: 200px;
+}
+
+.square {
+  background-color: red;
+}
+
+.circle {
+  background-color: blue;
+  border-radius: 50%;
+}
+
+.diamond {
+  background-color: green;
+  transform: rotate(45deg);
+}
